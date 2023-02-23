@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;600&display=swap" rel="stylesheet">
+    </head>
+<body class="w-screen lg:h-screen  sm:h-full flex  justify-around " style="font-family:Hanken Grotesk;">
+    
+        <div class=" lg:h-2/3 lg:w-2/5 lg:flex-row sm:w-full sm:h-auto flex sm: mb-8 sm:flex-col rounded-2xl shadow-xl self-center">
+            <div class="bg-gradient-to-r from-[#7857FF] to-[#2E2BE9]  lg:w-1/2 lg:h-full sm:h-1/2  rounded-2xl">
+                <p class="font-bold text-gray-300 text-center my-8">Your Result</p>
+                <div class="h-40 w-40 rounded-full bg-gradient-to-r from[#4e21ca] to-[#2421ca] mx-auto  flex flex-col justify-center">
+                    <h1 class=" text-6xl text-white font-bold text-center "> 76</h1>
+                    <p class="text-center text-gray-300 px-0 font-bold">of 100</p>
+                </div>
+                <h1 class=" text-center text-2xl text-white font-bold my-4">Great</h1>
+                <p class="px-6  text-center text-gray-300 font-bold">You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
+            <div class="lg:w-1/2 lg:h-full  sm:flex-grow   flex flex-col p-8">
+                <h3 class=" font-bold ">Summery</h3>
+                <div id="stats" class="">
+                    <div class="h-10  bg-red-50 mx-auto my-5 rounded-lg py-2 flex ">
+                       <img class="h-4 px-1 my-auto" src="images/icon-reaction.svg" alt="">
+                       <p class="font-bold text-xs text-red-600 align-middle my-auto ">Reaction</p>
+                       <p class="font-bold flex-grow text-right px-1 text-xs my-auto">80 <span class="text-gray-500">/ 100</span></p>
+                    </div>
+                    <div class="h-10  bg-orange-50 mx-auto my-5 rounded-lg py-2 flex ">
+                        <img class="h-4 px-1 my-auto" src="images/icon-memory.svg" alt="">
+                        <p class="font-bold text-xs text-orange-500 align-middle my-auto ">Memory</p>
+                        <p class="font-bold flex-grow text-right px-1 text-xs my-auto">92 <span class="text-gray-500">/ 100</span></p>
+                    </div>
+                    <div class="h-10  bg-green-50 mx-auto my-5 rounded-lg py-2 flex ">
+                        <img class="h-4 px-1 my-auto" src="images/icon-verbal.svg" alt="">
+                        <p class="font-bold text-xs text-green-500 align-middle my-auto ">Verbal</p>
+                        <p class="font-bold flex-grow text-right px-1 text-xs my-auto">61 <span class="text-gray-500">/ 100</span></p>
+                    </div>
+                    <div class="h-10  bg-blue-50 mx-auto my-5 rounded-lg py-2 flex ">
+                        <img class="h-4 px-1 my-auto" src="images/icon-visual.svg" alt="">
+                        <p class="font-bold text-xs text-blue-800 align-middle my-auto ">Visual</p>
+                        <p class="font-bold flex-grow text-right px-1 text-xs my-auto">72 <span class="text-gray-500">/ 100</span></p>
+                    </div>
+                </div>
+                <button class="my-8 border-2 hover:border-blue-900 hover:font-bold bg-gradient-to-r from-[#7857FF] to-[#2E2BE9] mx-auto w-full rounded-3xl p-2">Continue</button>
+
+            </div>
+        </div>
+    <script src="data.js"></script>
+    
+</body>
+</html>
